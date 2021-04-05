@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*使用继承性，给body标签设置字体*/
+body {
+  font: normal 14px/25px '微软雅黑';
+}
+
+/* 头部样式 */
+header {}
+
+header .header-top {
+  width: 1199px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+header .header-top .logo {
+  width: 192px;
+  height: 63px;
+  padding-top: 27px;
+  float: left;
+}
+
+header .header-top .logo h1 {
+  width: 192px;
+  height: 63px;
+}
+
+header .header-top .tool {
+  width: 266px;
+  height: 74px;
+  float: right;
+  padding-top: 22px;
+}
+
+header .header-top .tool .r1{
+  margin-bottom: 10px;
+}
+
+header .header-top .tool .r1 .tel {
+  width: 32px;
+  height: 25px;
+}
+
+header .header-top .tool .r1 .telNumber {
+  font-size: 20px;
+  color: #00978E;
+  display: inline-block;
+  width: 158px;
+  height: 26px;
+  text-align: center;
+}
+
+header .header-top .tool .r1 .icon {
+  width: 24px;
+  height: 24px;
+}
+
+header .header-top .tool .r1 .chinese_icon {
+  margin-right: 14.1px;
+}
+
+header .header-top .tool .r2 {
+  width: 264px;
+  height: 28px;
+  border: 1px solid #000;
+}
+
+header .header-top .tool .r2 input {
+  float: left;
+  width: 224px;
+  height: 28px;
+  padding-left: 20px;
+  border: none;
+  outline: none;
+}
+
+header .header-top .tool .r2 button {
+  float: right;
+  width: 20px;
+  height: 20px;
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  top: 3px;
+  right: 10px;
+}
+
+header .main-nav{
+  height: 60px;
+  background-color: #00978E;
+  margin-top: 29px;
+}
+
+header .main-nav ul{
+  height: 60px;
+  width: 1024px;
+  margin: 0 auto; 
+}
+
+header .main-nav ul li{
+  float: left;
+  width: 128px;
+  text-align: center;
+  line-height: 60px;
+}
