@@ -31,6 +31,8 @@ header .header-top .logo {
   height: 63px;
   padding-top: 27px;
   float: left;
+  color: #00978E;
+  font-size: 20px;
 }
 
 header .header-top .logo h1 {
@@ -45,7 +47,7 @@ header .header-top .tool {
   padding-top: 22px;
 }
 
-header .header-top .tool .r1{
+header .header-top .tool .r1 {
   margin-bottom: 10px;
 }
 
@@ -100,21 +102,35 @@ header .header-top .tool .r2 button {
   right: 10px;
 }
 
-header .main-nav{
+header .main-nav {
   height: 60px;
   background-color: #00978E;
   margin-top: 29px;
 }
 
-header .main-nav ul{
+header .main-nav ul {
   height: 60px;
   width: 1024px;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
-header .main-nav ul li{
+header .main-nav ul li {
   float: left;
   width: 128px;
   text-align: center;
   line-height: 60px;
+}
+
+header .main-nav ul .cur {
+  background-color: #015E58;
+}
+
+header .main-nav ul li a {
+  display: block;
+  width: 128px;
+  height: 60px;
+}
+
+header .main-nav ul li a:hover {
+  background-color: orange;
 }
