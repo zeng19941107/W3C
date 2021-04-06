@@ -29,7 +29,7 @@ header .header-top {
 header .header-top .logo {
   width: 192px;
   height: 63px;
-  padding-top: 27px;
+  padding-top: 39px;
   float: left;
   color: #00978E;
   font-size: 20px;
@@ -110,24 +110,24 @@ header .main-nav {
 
 header .main-nav ul {
   height: 60px;
-  width: 1024px;
+  width: 1200px;
   margin: 0 auto;
 }
 
 header .main-nav ul li {
   float: left;
-  width: 128px;
+  width: 150px;
   text-align: center;
   line-height: 60px;
 }
 
-header .main-nav ul .cur {
+header .main-nav ul .cur a{
   background-color: #015E58;
 }
 
 header .main-nav ul li a {
   display: block;
-  width: 128px;
+  width: 150px;
   height: 60px;
 }
 
