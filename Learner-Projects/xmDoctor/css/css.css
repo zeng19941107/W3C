@@ -121,7 +121,7 @@ header .main-nav ul li {
   line-height: 60px;
 }
 
-header .main-nav ul .cur a{
+header .main-nav ul .cur a {
   background-color: #015E58;
 }
 
@@ -133,4 +133,83 @@ header .main-nav ul li a {
 
 header .main-nav ul li a:hover {
   background-color: orange;
+}
+
+.banner {
+  width: 100%;
+  position: relative;
+}
+
+.banner .banner-img {
+  width: 100%;
+}
+
+.banner .center {
+  position: absolute;
+  width: 1200px;
+  height: 300px;
+  top: 50%;
+  left: 50%;
+  margin-top: -150px;
+  margin-left: -600px;
+}
+
+.banner .center .left-btn {
+  position: absolute;
+  width: 56px;
+  height: 74px;
+  background-color: rgba(0, 0, 0, 0.3);
+  left: 0;
+  top: 50%;
+  margin-top: -37px;
+}
+
+.banner .center .right-btn {
+  position: absolute;
+  width: 56px;
+  height: 74px;
+  background-color: rgba(0, 0, 0, 0.3);
+  right: 0;
+  top: 50%;
+  margin-top: -37px;
+}
+
+.banner .center h2 {
+  position: absolute;
+  width: 504px;
+  height: 79px;
+  font-size: 60px;
+  color: #015E58;
+  font-weight: normal;
+  top: 50%;
+  margin-top: -79px;
+  left: 114px;
+}
+
+.banner ol {
+  position: absolute;
+  width: 120px;
+  height: 12px;
+  background-color: red;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.banner ol li {
+  float: left;
+  width: 20px;
+  height: 12px;
+  background-color: white;
+  margin-right: 10px;
+}
+
+/*最后一个没有margin*/
+.banner ol li:last-child {
+  margin-right: 0px;
+}
+
+.banner ol li.cur{
+  width: 30px;
+  background-color: #00978E;
 }

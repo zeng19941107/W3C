@@ -33,14 +33,30 @@ header .header-top .main-nav {
   float: right;
 }
 
-header .header-top .main-nav ul li {
+.header-all header .header-top .main-nav ul li {
   float: left;
   font-size: 16px;
   margin-right: 20px;
   line-height: 80px;
 }
 
-header .header-top .main-nav ul li a {
+.header-all header .header-top .main-nav ul li a {
   color: white;
   text-decoration: none;
 }
+
+.header-all img{
+  position: relative;
+  height: 600px;
+  width: 100%;
+}
+
+.header-all .banner .cover{
+  position: absolute;
+  
+}
+
+.header-all .banner .cover form{
+  position: absolute;
+}
+
